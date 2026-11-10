@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <link rel="stylesheet" href="./indexe.css">
+</head>
+
+<body>
+
+    <section>
+        <div class="container" id="container">
+            <div class="header">
+                <div class="card">
+                    <h1>Todo list</h1>
+                    <!-- <button class="theme" id="theme" title="changer de theme"> -->
+                    <i class="solid"></i>
+
+                    </button>
+                    <p class="subtile">Organisez votre vie en un seul endroit</p>
+                    <div class="stats">
+                        <div class="stats-box">
+                            <div class="stats-number">0</div>
+                            <div class="stats-label">Totale</div>
+                        </div>
+                        <div class="stats-box">
+                            <div class="stats-number">0</div>
+                            <div class="stats-label">Termines </div>
+                        </div>
+                        <div class="stats-box">
+                            <div class="stats-number">0</div>
+                            <div class="stats-label">En attente</div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="addrows">
+                        <input type="text" class="task" placeholder="Ajouter une nouvelle taches...">
+                        <select class="select">
+                            <option value="Moyenne">Moyenne</option>
+                            <option value="Basse">Basse</option>
+                            <option value="Haute">Haute</option>
+
+                        </select>
+                        <button class="btn-add">
+                            <i class="fa-plus"> </i> +Ajouter
+                        </button>
+                    </div>
+                    <div class="filter">
+                        <div class="filter-pils">
+                            <button class="filter-btn active"> Toutes</button>
+                            <button class="filter-btn "> En attente</button>
+                            <button class="filter-btn "> Termines</button>
+                        </div>
+                        <div class="search">
+                            <input type="text" class="seach-input" placeholder="Recherche...">
+                            <i class="fa-solid"></i>
+
+                        </div>
+                    </div>
+                    <div class="emptys">
+                        <div class="empty">
+                            <div class="lines"></div>
+                        </div>
+                        <h2 class="title">Aucun taches pour le moment</h2>
+                        <p class="subtile">Ajouter votre premier tache pour commencer</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
